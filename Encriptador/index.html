@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Encriptador de texto</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+<header>
+<img src="Imagenes/Logo_Alura.png"> 
+</header>
+<main>
+    <section>
+    <textarea type="text" class="palabra" cols="40" rows="6"  placeholder="Ingrese el texto aqui"></textarea>
+    <div class="principal-izquierda">
+    <p class="aclaracion"><img src="Imagenes/Exclamación.png">Solo letras minusculas y sin acentos</p>
+    <button class="encriptar">Encriptar</button>
+    <button class="desencriptar">Desencriptar</button>
+    </div>
+
+</section>
+<section>
+    <div class="imagen" id="imagen">
+        <img src="Imagenes/Muñeco.png" class="muñeco" id="muñecojs">
+        <h2 class="leyenda" id="leyendajs">Ningun Mensaje Fue Encontrado</h2>
+        <p class="leyenda2" id="leyendajs2"> Presiona el botton Empezar para encriptar o desencriptar </p>
+        <div class="boton-Empezar">
+        <button id="empezar">Empezar</button>
+        </div>
+
+    </div>
+    <div class= "principal-derecha">
+    <textarea type="text" class="resultado" cols="18" rows="8" placeholder="Resultado"></textarea>
+    <button class="copiar">Copiar</button>
+    
+    </div>
+</section>
+</main>
+
+<script src="Js/Index.js"></script>
+<script src="Js/muñeco.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
